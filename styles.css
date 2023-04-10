@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    margin-right: 1rem;
+  }
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  main {
+    padding: 1rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    margin-bottom: 1rem;
+  }
+  a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+  }
+  a:hover {
+    background-color: #555;
+  }
+  
+  /* Estilos específicos */
+  #proyectos {
+    border-bottom: 1px solid #ccc;
+  }
+  #proyectos h3 {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  #proyectos p {
+    margin: 0;
+  }
+  #proyectos li:last-child {
+    margin-bottom: 0;
+  }
+  #habilidades {
+    border-bottom: 1px solid #ccc;
+  }
+  #habilidades li {
+    font-weight: bold;
+  }
+  #educacion li {
+    margin-bottom: 0.5rem;
+  }
+  
